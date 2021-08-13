@@ -11,21 +11,14 @@ module.exports.delete_data=(req, res) => {
         }
         if(myArr[i].id == req.params.id){
             
-            // let myArr=jsonFile.availableCourses
 
-            // let myObj=myArr.indexOf(myArr[i])
-            // console.log(myObj)
             let myObj=(myArr[i])
             console.log(myObj)
             let myObjndex=myArr.indexOf(myObj)
-            // console.log(myObjndex)
 
 
-
-
-            let removed=myArr.splice(myObjndex, 1);
+            let removed=myArr.splice(myObjndex, 1); // To delete specific user ID
             jsonFile.availableCourses=myArr
-            // console.log(myArr); 
 
                         
             fs.writeFile('courses.json', JSON.stringify(jsonFile,null,4),function(err, result) {
