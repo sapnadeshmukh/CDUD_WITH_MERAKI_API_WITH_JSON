@@ -576,53 +576,18 @@
             "short_description": "We will discuss about javascript introduction, how to install node in your laptop and run first program."
         },
         {
-            "id": "150",
-            "name": "JS Objects",
-            "type": "js",
-            "logo": "http://navgurukul.org/img/sqlogo.jpg",
-            "short_description": "We will discuss about the operations can be done on objects in javascript."
-        },
-        {
-            "id": "152",
-            "name": "Volunteering with Meraki",
-            "type": "html",
-            "logo": "http://navgurukul.org/img/sqlogo.jpg",
-            "short_description": "This is a Self Onboarding Doc for Volunteers willing to Facilitate Python Programming and Spoken English to Students."
-        },
-        {
-            "id": "153",
-            "name": "JS if-else ",
-            "type": "js",
-            "logo": "http://navgurukul.org/img/sqlogo.jpg",
-            "short_description": "We will discuss about Conditional Statements."
-        },
-        {
-            "id": "171",
-            "name": "sayli",
-            "type": "html",
-            "logo": "http://bit.do/recursion-png",
-            "short_description": "course of ng"
-        },
-        {
             "id": "172",
-            "name": "rinaaaa",
+            "name": "sapna",
             "type": "html",
             "logo": "http://bit.do/recursion-png",
-            "short_description": "course of ng"
+            "short_description": "course "
         },
         {
             "id": "173",
-            "name": "chndan",
+            "name": "sakshi",
             "type": "html",
             "logo": "http://bit.do/recursion-png",
-            "short_description": "aasman"
-        },
-        {
-            "id": "174",
-            "name": "susi",
-            "type": "html",
-            "logo": "http://bit.do/recursion-png",
-            "short_description": "Hp"
+            "short_description": "course "
         }
     ],
     "completedCourses": []

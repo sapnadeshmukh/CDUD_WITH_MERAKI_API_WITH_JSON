@@ -24,10 +24,11 @@ module.exports.delete_data=(req, res) => {
 
 
             let removed=myArr.splice(myObjndex, 1);
+            jsonFile.availableCourses=myArr
             // console.log(myArr); 
+
                         
-            
-            fs.writeFile('courses.json', JSON.stringify(myArr,null,4),function(err, result) {
+            fs.writeFile('courses.json', JSON.stringify(jsonFile,null,4),function(err, result) {
 
                 if (err) console.log('error', err);
                     console.log("Data has deleted");
